@@ -1,0 +1,71 @@
+
+.container .header{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+
+.container .sub-header {
+    color: rgb(162, 162, 162);
+    text-align: center;
+}
+.features{
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 3fr);
+    max-width: 1600px;
+}
+
+.features .card{
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    
+}
+
+.features .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.features .card i{
+    display: inline-block;
+    color: rgb(245, 222, 179);
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    box-shadow: 3px 5px 5px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+.features .card h4{
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+.features .card p{
+    color: #ccc;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.features .card a{
+    color: #fff;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.features .card a:hover{
+    color: #708be3;
+}
+

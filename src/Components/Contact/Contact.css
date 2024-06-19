@@ -1,0 +1,74 @@
+h2{
+    color: white;
+    font-size: 2rem;
+    padding-top: 3.15rem;
+}
+
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: solid 2px #193697;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+input text{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+form ::placeholder{
+    color: white;
+}
+
+form .item{
+    color: white;
+}
+
+form .mess{
+    margin-top: 1rem;
+    padding: 30px 30px;
+    text-align: start;
+    justify-content: center;
+    resize: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid #193697;
+    color: white;
+}
+
+
+form .bouton{
+    text-align: center;
+    justify-content: center;
+}
+
+form .button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    
+}
+
+form .button:hover{
+    background-color: #193697;
+}
