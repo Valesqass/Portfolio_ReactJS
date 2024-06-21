@@ -154,6 +154,24 @@ function Project() {
             Découvrir notre projet ?
           </a>
         </div>
+        <div className="card">
+          <span>
+          <i class="fa-brands fa-react"></i>
+          </span>
+          <h4>Portfolio.jsx</h4>
+          <p>
+            Refonte de mon Portfolio cette fois ci en ReactJs. 
+            <br />
+
+          </p>
+
+          <hr />
+          <hr />
+
+          <a href="https://github.com/Valesqass/Portfolio_ReactJS">
+            Analysez mon Portfolio !
+          </a>
+        </div>
       </div>
     </div>
   );
